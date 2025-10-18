@@ -32,7 +32,7 @@ function App() {
             }
           >
             <Route index element={<DashboardPage />} />
-            <Route path="inventory" element={<InventoryPage />} />
+            <Route path="inventory/*" element={<InventoryPage />} />
             <Route path="sales" element={<div>Sales Module</div>} />
             <Route path="projects" element={<div>Projects Module</div>} />
             <Route path="procurement" element={<div>Procurement Module</div>} />

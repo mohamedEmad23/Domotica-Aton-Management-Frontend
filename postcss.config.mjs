@@ -1,7 +1,8 @@
 /** @type {import('postcss-load-config').Config} */
 const config = {
   plugins: {
-    '@tailwindcss/postcss': {},
+    // Tailwind CSS v4 is handled by @tailwindcss/vite plugin in vite.config.ts
+    // No PostCSS plugin needed
   },
 }
 
